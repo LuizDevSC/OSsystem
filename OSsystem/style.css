@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --azul-sidebar: #002c83;   
+    --fundo-pagina: #f4f6f9;   
+    --fundo-cards: #ffffff;
+
+}
+
+body{
+    background-color: var(--fundo-pagina);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo-lateral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 100vh;
+    background-color: var(--azul-sidebar);
+    padding: 20px 0;
+
+}
+
+
+.conteudo-lateral-button{
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+}
+
+.conteudo-lateral-bottom{
+    display: flex;
+    
+}
+
+
